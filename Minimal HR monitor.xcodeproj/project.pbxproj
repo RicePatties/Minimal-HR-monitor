@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB9561724AEA2C900FE5532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9561624AEA2C900FE5532 /* AppDelegate.swift */; };
+		2BB9561924AEA2C900FE5532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9561824AEA2C900FE5532 /* SceneDelegate.swift */; };
+		2BB9561B24AEA2C900FE5532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9561A24AEA2C900FE5532 /* ContentView.swift */; };
+		2BB9561D24AEA2D100FE5532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9561C24AEA2D100FE5532 /* Assets.xcassets */; };
+		2BB9562024AEA2D100FE5532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9561F24AEA2D100FE5532 /* Preview Assets.xcassets */; };
+		2BB9562324AEA2D100FE5532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9562124AEA2D100FE5532 /* LaunchScreen.storyboard */; };
+		2BB9562E24AEA2D200FE5532 /* Minimal_HR_monitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9562D24AEA2D200FE5532 /* Minimal_HR_monitorTests.swift */; };
+		2BB9563924AEA2D200FE5532 /* Minimal_HR_monitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9563824AEA2D200FE5532 /* Minimal_HR_monitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB9562A24AEA2D200FE5532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB9560B24AEA2C900FE5532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB9561224AEA2C900FE5532;
+			remoteInfo = "Minimal HR monitor";
+		};
+		2BB9563524AEA2D200FE5532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB9560B24AEA2C900FE5532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB9561224AEA2C900FE5532;
+			remoteInfo = "Minimal HR monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB9561324AEA2C900FE5532 /* Minimal HR monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minimal HR monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB9561624AEA2C900FE5532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BB9561824AEA2C900FE5532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BB9561A24AEA2C900FE5532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BB9561C24AEA2D100FE5532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB9561F24AEA2D100FE5532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BB9562224AEA2D100FE5532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB9562424AEA2D100FE5532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB9562924AEA2D200FE5532 /* Minimal HR monitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minimal HR monitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB9562D24AEA2D200FE5532 /* Minimal_HR_monitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimal_HR_monitorTests.swift; sourceTree = "<group>"; };
+		2BB9562F24AEA2D200FE5532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB9563424AEA2D200FE5532 /* Minimal HR monitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minimal HR monitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB9563824AEA2D200FE5532 /* Minimal_HR_monitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimal_HR_monitorUITests.swift; sourceTree = "<group>"; };
+		2BB9563A24AEA2D200FE5532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB9561024AEA2C900FE5532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB9562624AEA2D200FE5532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB9563124AEA2D200FE5532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB9560A24AEA2C900FE5532 = {
+			isa = PBXGroup;
+			children = (
+				2BB9561524AEA2C900FE5532 /* Minimal HR monitor */,
+				2BB9562C24AEA2D200FE5532 /* Minimal HR monitorTests */,
+				2BB9563724AEA2D200FE5532 /* Minimal HR monitorUITests */,
+				2BB9561424AEA2C900FE5532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB9561424AEA2C900FE5532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9561324AEA2C900FE5532 /* Minimal HR monitor.app */,
+				2BB9562924AEA2D200FE5532 /* Minimal HR monitorTests.xctest */,
+				2BB9563424AEA2D200FE5532 /* Minimal HR monitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB9561524AEA2C900FE5532 /* Minimal HR monitor */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9561624AEA2C900FE5532 /* AppDelegate.swift */,
+				2BB9561824AEA2C900FE5532 /* SceneDelegate.swift */,
+				2BB9561A24AEA2C900FE5532 /* ContentView.swift */,
+				2BB9561C24AEA2D100FE5532 /* Assets.xcassets */,
+				2BB9562124AEA2D100FE5532 /* LaunchScreen.storyboard */,
+				2BB9562424AEA2D100FE5532 /* Info.plist */,
+				2BB9561E24AEA2D100FE5532 /* Preview Content */,
+			);
+			path = "Minimal HR monitor";
+			sourceTree = "<group>";
+		};
+		2BB9561E24AEA2D100FE5532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9561F24AEA2D100FE5532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BB9562C24AEA2D200FE5532 /* Minimal HR monitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9562D24AEA2D200FE5532 /* Minimal_HR_monitorTests.swift */,
+				2BB9562F24AEA2D200FE5532 /* Info.plist */,
+			);
+			path = "Minimal HR monitorTests";
+			sourceTree = "<group>";
+		};
+		2BB9563724AEA2D200FE5532 /* Minimal HR monitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9563824AEA2D200FE5532 /* Minimal_HR_monitorUITests.swift */,
+				2BB9563A24AEA2D200FE5532 /* Info.plist */,
+			);
+			path = "Minimal HR monitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB9561224AEA2C900FE5532 /* Minimal HR monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB9563D24AEA2D200FE5532 /* Build configuration list for PBXNativeTarget "Minimal HR monitor" */;
+			buildPhases = (
+				2BB9560F24AEA2C900FE5532 /* Sources */,
+				2BB9561024AEA2C900FE5532 /* Frameworks */,
+				2BB9561124AEA2C900FE5532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minimal HR monitor";
+			productName = "Minimal HR monitor";
+			productReference = 2BB9561324AEA2C900FE5532 /* Minimal HR monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB9562824AEA2D200FE5532 /* Minimal HR monitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB9564024AEA2D200FE5532 /* Build configuration list for PBXNativeTarget "Minimal HR monitorTests" */;
+			buildPhases = (
+				2BB9562524AEA2D200FE5532 /* Sources */,
+				2BB9562624AEA2D200FE5532 /* Frameworks */,
+				2BB9562724AEA2D200FE5532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB9562B24AEA2D200FE5532 /* PBXTargetDependency */,
+			);
+			name = "Minimal HR monitorTests";
+			productName = "Minimal HR monitorTests";
+			productReference = 2BB9562924AEA2D200FE5532 /* Minimal HR monitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB9563324AEA2D200FE5532 /* Minimal HR monitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB9564324AEA2D200FE5532 /* Build configuration list for PBXNativeTarget "Minimal HR monitorUITests" */;
+			buildPhases = (
+				2BB9563024AEA2D200FE5532 /* Sources */,
+				2BB9563124AEA2D200FE5532 /* Frameworks */,
+				2BB9563224AEA2D200FE5532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB9563624AEA2D200FE5532 /* PBXTargetDependency */,
+			);
+			name = "Minimal HR monitorUITests";
+			productName = "Minimal HR monitorUITests";
+			productReference = 2BB9563424AEA2D200FE5532 /* Minimal HR monitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB9560B24AEA2C900FE5532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jimu Ryoo";
+				TargetAttributes = {
+					2BB9561224AEA2C900FE5532 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					2BB9562824AEA2D200FE5532 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2BB9561224AEA2C900FE5532;
+					};
+					2BB9563324AEA2D200FE5532 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2BB9561224AEA2C900FE5532;
+					};
+				};
+			};
+			buildConfigurationList = 2BB9560E24AEA2C900FE5532 /* Build configuration list for PBXProject "Minimal HR monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB9560A24AEA2C900FE5532;
+			productRefGroup = 2BB9561424AEA2C900FE5532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB9561224AEA2C900FE5532 /* Minimal HR monitor */,
+				2BB9562824AEA2D200FE5532 /* Minimal HR monitorTests */,
+				2BB9563324AEA2D200FE5532 /* Minimal HR monitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB9561124AEA2C900FE5532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB9562324AEA2D100FE5532 /* LaunchScreen.storyboard in Resources */,
+				2BB9562024AEA2D100FE5532 /* Preview Assets.xcassets in Resources */,
+				2BB9561D24AEA2D100FE5532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB9562724AEA2D200FE5532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB9563224AEA2D200FE5532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB9560F24AEA2C900FE5532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB9561724AEA2C900FE5532 /* AppDelegate.swift in Sources */,
+				2BB9561924AEA2C900FE5532 /* SceneDelegate.swift in Sources */,
+				2BB9561B24AEA2C900FE5532 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB9562524AEA2D200FE5532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB9562E24AEA2D200FE5532 /* Minimal_HR_monitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB9563024AEA2D200FE5532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB9563924AEA2D200FE5532 /* Minimal_HR_monitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB9562B24AEA2D200FE5532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB9561224AEA2C900FE5532 /* Minimal HR monitor */;
+			targetProxy = 2BB9562A24AEA2D200FE5532 /* PBXContainerItemProxy */;
+		};
+		2BB9563624AEA2D200FE5532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB9561224AEA2C900FE5532 /* Minimal HR monitor */;
+			targetProxy = 2BB9563524AEA2D200FE5532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB9562124AEA2D100FE5532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB9562224AEA2D100FE5532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB9563B24AEA2D200FE5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BB9563C24AEA2D200FE5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB9563E24AEA2D200FE5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Minimal HR monitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 9TNL3D333M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Minimal HR monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricepatty.Minimal-HR-monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB9563F24AEA2D200FE5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Minimal HR monitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 9TNL3D333M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Minimal HR monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricepatty.Minimal-HR-monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BB9564124AEA2D200FE5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TNL3D333M;
+				INFOPLIST_FILE = "Minimal HR monitorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricepatty.Minimal-HR-monitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minimal HR monitor.app/Minimal HR monitor";
+			};
+			name = Debug;
+		};
+		2BB9564224AEA2D200FE5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TNL3D333M;
+				INFOPLIST_FILE = "Minimal HR monitorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricepatty.Minimal-HR-monitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minimal HR monitor.app/Minimal HR monitor";
+			};
+			name = Release;
+		};
+		2BB9564424AEA2D200FE5532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TNL3D333M;
+				INFOPLIST_FILE = "Minimal HR monitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricepatty.Minimal-HR-monitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Minimal HR monitor";
+			};
+			name = Debug;
+		};
+		2BB9564524AEA2D200FE5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TNL3D333M;
+				INFOPLIST_FILE = "Minimal HR monitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricepatty.Minimal-HR-monitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Minimal HR monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB9560E24AEA2C900FE5532 /* Build configuration list for PBXProject "Minimal HR monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB9563B24AEA2D200FE5532 /* Debug */,
+				2BB9563C24AEA2D200FE5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB9563D24AEA2D200FE5532 /* Build configuration list for PBXNativeTarget "Minimal HR monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB9563E24AEA2D200FE5532 /* Debug */,
+				2BB9563F24AEA2D200FE5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB9564024AEA2D200FE5532 /* Build configuration list for PBXNativeTarget "Minimal HR monitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB9564124AEA2D200FE5532 /* Debug */,
+				2BB9564224AEA2D200FE5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB9564324AEA2D200FE5532 /* Build configuration list for PBXNativeTarget "Minimal HR monitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB9564424AEA2D200FE5532 /* Debug */,
+				2BB9564524AEA2D200FE5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB9560B24AEA2C900FE5532 /* Project object */;
+}
